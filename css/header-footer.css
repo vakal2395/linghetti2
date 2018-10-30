@@ -1,0 +1,93 @@
+.navbar{
+    background-color: #8bc24a;
+}
+svg{
+    width: 220px;
+}
+.nav{
+    display: flex;
+    flex-direction: inherit;
+}
+.nav li {
+    padding: 5px 0 5px 30px;
+}
+a:hover{
+    text-decoration: none;
+}
+.withripple{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.footer {
+    background: #00477d;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer .social {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.footer .social li{
+    margin: 8px;
+}
+.footer h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 4;
+    letter-spacing: 1.2px;
+    text-align: left;
+    color: #ffffff;
+}
+.footer p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.11;
+    letter-spacing: 1.1px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+.footer svg{
+    margin-top: 10px;
+    width: 230px;
+}
+.socialLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+@media screen and (max-width: 992px) {
+    .footer .img-logo{
+        margin-top: 15px;
+        width: 200px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .footer .img-logo{
+        margin-top: 10px;
+        width: 150px;
+    }
+    .footer p{
+        font-size: 12px;
+    }
+    .footer h5{
+        font-size: 15px;
+    }
+}
+.withrippleGreen{
+    color: #8bc24a;
+}

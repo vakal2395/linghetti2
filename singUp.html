@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header-footer.css">
+    <title>Linghetti</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expend-lg">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                         viewBox="0 0 321.5 59" style="enable-background:new 0 0 321.5 59;" xml:space="preserve">
+                    <style type="text/css">
+                        .st0{fill:#ffffff;}
+                        .st1{font-family:'Trebuchet MS';}
+                        .st2{font-size:58.0422px;}
+                    </style>
+                    <g>
+                        <g>
+                            <ellipse class="st0" cx="15.1" cy="34.1" rx="15" ry="15.1"/>
+                            <ellipse class="st0" cx="42.3" cy="13.7" rx="13.2" ry="13.3"/>
+                            <ellipse class="st0" cx="72.9" cy="36.2" rx="13.2" ry="13.3"/>
+                            <path class="st0" d="M14.4,18.6"/>
+                            <path class="st0" d="M15.1,18.6c0,0,2.8-10.5,14.6-8.4s25.5,1,25.5,1s13.4-2.5,14.8,11.9C71.5,37.6,66.9,48,66.9,48
+                                s-7.3,5.6-12.8-2.1c0,0-7.7,9.8-15.3,0c0,0-7.5,9.7-14.9,0.3"/>
+                        </g>
+                        <text transform="matrix(0.9938 0 0 1 93.8291 47.1808)" class="st0 st1 st2 st3">Linghetti</text>
+                        </g>
+                    </svg>
+        </a>
+
+        <ul class="nav navbar-nav navbar-right">
+            <li><a class="withripple" href="javascript:void(0)">Display Language: English <div class="ripple-container">
+                <div class="ripple"></div>
+            </div> </a></li>
+            <li><a class="withripple" href="index.html">Lessons <div class="ripple-container">
+                <div class="ripple"></div>
+            </div> </a></li>
+            <li><a class="withripple" href="login.html">Sign in / Sign up</a></li>
+        </ul>
+    </div>
+</nav>
+
+<section class="welcome">
+    <div class="container">
+        <div class="row welcome-box">
+            <div class="col-xs-12">
+                <h1 class="welcome-box__text prompt">Create an Account</h1>
+            </div>
+        </div>
+        <p class="link-sent" style="color:#41d332; display:none; text-align:center; margin-bottom:150px">A confirmation link has been sent to your email.</p>
+        <form class="">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-md-offset-2 col-lg-offset-3">
+                    <div class="form-group form-event" style="margin: 0 auto;">
+                        <label class="reg-lable" for="nameFirst">First Name:</label>
+                        <input type="text" id="nameFirst" class="form-control name-first" style="margin-bottom:10px;" placeholder="First Name" required>
+                        <label class="reg-lable" for="nameLast">Last Name:</label>
+                        <input type="text" id="nameLast" class="form-control name-last" style="margin-bottom:10px;" placeholder="Last Name" required>
+                        <label class="reg-lable" for="email">Email:</label>
+                        <p class="inv inv-email">Use another email address</p>
+                        <input type="email" id="email" class="form-control email" style="margin-bottom:10px;" placeholder="Email Address" required>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-offset-0 col-sm-6 col-md-4 col-lg-3" style="text-align:left;">
+                    <div class="form-group form-event" style="margin: 0 auto;">
+                        <p class="inv inv-usr">Use another user name</p>
+                        <label for="usr" class="reg-lable">User Name:</label>
+                        <input type="text" id="usr" class="form-control usr" style="margin-bottom:10px;" placeholder="User Name" required>
+                        <label class="reg-lable" for="pwd1">Password:</label>
+                        <input type="password" id="pwd1" class="form-control pwd1" style="margin-bottom:10px;" placeholder="User Password" required>
+                        <label class="reg-lable" for="pwd2">Repeat Password:</label>
+                        <p class="inv inv-pwd-match">Passwords should match</p>
+                        <input type="password" id="pwd2" class="form-control pwd2" style="margin-bottom:10px;" placeholder="Repeat Password" required>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-8 col-lg-6 col-md-offset-2 col-lg-offset-3">
+                    <div class="form-group" style="position:relative">
+                        <label class="reg-lable">Native Language:</label>
+                        <select id="optlist" class="form-control languages">
+                            <!-- Languages are added with javascript -->
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align:center">
+                <button type="submit" class="btn btn-success btn-lg btn-sgn-up" style="width: 150px; margin-bottom:130px">Sign Up</button>
+            </div>
+        </form>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-xs-6 socialLinks">
+                <a class="navbar-brand" href="#">
+                    <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                         viewBox="0 0 321.5 59" style="enable-background:new 0 0 321.5 59;" xml:space="preserve">
+                    <style type="text/css">
+                        .st0{fill:#ffffff;}
+                        .st1{font-family:'Trebuchet MS';}
+                        .st2{font-size:58.0422px;}
+                    </style>
+                    <g>
+                        <g>
+                            <ellipse class="st0" cx="15.1" cy="34.1" rx="15" ry="15.1"/>
+                            <ellipse class="st0" cx="42.3" cy="13.7" rx="13.2" ry="13.3"/>
+                            <ellipse class="st0" cx="72.9" cy="36.2" rx="13.2" ry="13.3"/>
+                            <path class="st0" d="M14.4,18.6"/>
+                            <path class="st0" d="M15.1,18.6c0,0,2.8-10.5,14.6-8.4s25.5,1,25.5,1s13.4-2.5,14.8,11.9C71.5,37.6,66.9,48,66.9,48
+                                s-7.3,5.6-12.8-2.1c0,0-7.7,9.8-15.3,0c0,0-7.5,9.7-14.9,0.3"/>
+                        </g>
+                        <text transform="matrix(0.9938 0 0 1 93.8291 47.1808)" class="st0 st1 st2 st3">Linghetti</text>
+                        </g>
+                    </svg>
+                </a>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <ul class="social">
+                            <li><img src="img/icons/twitter.png" alt=""></li>
+                            <li><img src="img/icons/fb.png" alt=""></li>
+                            <li><img src="img/icons/vk.png" alt=""></li>
+                            <li><img src="img/icons/gp.png" alt=""></li>
+                            <li><img src="img/icons/yt.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <p>©Linghetti 2018. All rights reserved</p>
+            </div>
+            <div class="col-sm-2 col-xs-6">
+                <h5>About us</h5>
+                <p>Our Mission
+                <p>You Can Learn Anything</p>
+                <p>Our Team</p>
+                <p>Our Interns</p>
+                <p>Our Content Specialists</p>
+                <p>Our Board</p>
+            </div>
+            <div class="col-sm-2 col-xs-6 xs-clr-l">
+                <h5>Support</h5>
+                <p>Help center</p>
+                <p>Support Community</p>
+
+                <h5>Social</h5>
+                <p>Share Your Story</p>
+                <p>Press</p>
+            </div>
+            <div class="col-sm-2 col-xs-6">
+                <h5>Volunteer</h5>
+                <p>Full Time</p>
+                <p>Internships</p>
+            </div>
+            <div class="col-sm-2 col-xs-6">
+                <h5>Contribute</h5>
+                <p>Donate</p>
+                <p>Volunteer</p>
+                <p>Our Supporters</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="js/insertLanguages.js"></script>
+<!--<script src="js/dreamlang.js"></script>-->
+<script>
+    // Append available languages
+    insertLangs("languages");
+
+    $(".email").focus(function(){
+        $(".inv-email").hide();
+    });
+
+    $(".email").focusout(function(){
+        var email = $(this).val();
+        $.post("validate_email.php", {email:email}, function(data){
+            if(data != 1){
+                $(".inv-email").show();
+            };
+        })
+    });
+
+    $(".usr").focus(function(){
+        $(".inv-usr").hide();
+    });
+
+    $(".usr").focusout(function(){
+        var user = $(this).val();
+        $.post("validate_user.php", {user:user}, function(data){
+            if(data != 1){
+                $(".inv-usr").show();
+            };
+        })
+    });
+
+    $(".pwd2, .pwd1").focus(function(){
+        $(".inv-pwd-match").hide();
+    });
+
+    $(".pwd2, pwd1").focusout(function(){
+        var pwd1 = $(".pwd1").val();
+        var pwd2 = $(".pwd2").val();
+        if(pwd1 && pwd2){
+            if(pwd1 !== pwd2)
+                $(".inv-pwd-match").show();
+        };
+    });
+
+    $("form").submit(function(e){
+        var langID = $(".languages > option:selected").val();
+        var name1 = $(".name-first").val();
+        var name2 = $(".name-last").val();
+        var email = $(".email").val();
+        var user = $(".usr").val();
+        var pwd = $(".pwd2").val();
+        $.post("create_account.php", {nameFirst:name1, nameLast:name2, email:email, user:user, pwd:pwd, langID:langID}, function(data){
+            if(data == 1){
+                $("form").hide();
+                $(".link-sent").show();
+            } else if(data == 2){
+                $(".inv-email").show();
+            } else if(data == 3){
+                $(".inv-usr").show();
+            };
+        });
+        e.preventDefault();
+    });
+</script>
+</body>
+</html>

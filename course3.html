@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header-footer.css">
+    <title>Linghetti</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expend-lg bg-white">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                         viewBox="0 0 321.5 59" style="enable-background:new 0 0 321.5 59;" xml:space="preserve">
+                    <style type="text/css">
+                        .st0{fill:#8CC63F;}
+                        .st1{font-family:'Trebuchet MS';}
+                        .st2{font-size:58.0422px;}
+                    </style>
+                    <g>
+                        <g>
+                            <ellipse class="st0" cx="15.1" cy="34.1" rx="15" ry="15.1"/>
+                            <ellipse class="st0" cx="42.3" cy="13.7" rx="13.2" ry="13.3"/>
+                            <ellipse class="st0" cx="72.9" cy="36.2" rx="13.2" ry="13.3"/>
+                            <path class="st0" d="M14.4,18.6"/>
+                            <path class="st0" d="M15.1,18.6c0,0,2.8-10.5,14.6-8.4s25.5,1,25.5,1s13.4-2.5,14.8,11.9C71.5,37.6,66.9,48,66.9,48
+                                s-7.3,5.6-12.8-2.1c0,0-7.7,9.8-15.3,0c0,0-7.5,9.7-14.9,0.3"/>
+                        </g>
+                        <text transform="matrix(0.9938 0 0 1 93.8291 47.1808)" class="st0 st1 st2 st3">Linghetti</text>
+                        </g>
+                    </svg>
+        </a>
+
+        <div class="hotBut">
+            <button>
+                <img src="img/icon-flame.svg" alt="">
+            </button>
+            <div class="hotHoverBox">
+                <h4>Add to <a class="linkHot" href="" data-toggle="modal" data-target="#exampleModalCenter">
+                    Hot Words
+                </a></h4>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered justify-content-center" role="document">
+                <div class="modal-content ">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Add to Hot Words</h5>
+                    </div>
+                    <div class="modal-body">
+                        <h2><span>Привіт</span> (Hello)</h2>
+                        <div class="custom-controls-stacked d-block my-3">
+                            <label class="custom-control material-checkbox">
+                                <input type="checkbox" class="material-control-input">
+                                <span class="material-control-indicator"></span>
+                                <span class="material-control-description">Super Hot</span>
+                            </label>
+                        </div>
+
+                        <div class="dropdown">
+                            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <h2>Choose the group</h2>
+                            </button>
+
+
+
+                            <!--<select class="mdb-select md-form" >-->
+                            <!--<option value="">Choose your option</option>-->
+                            <!--<option value="1">Option 1</option>-->
+                            <!--<option value="2">Option 2</option>-->
+                            <!--<option value="3">Option 3</option>-->
+                            <!--</select>-->
+
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                <button class="dropdown-item" type="button"><span>New group +</span></button>
+                                <button class="dropdown-item" type="button"> Greeting words</button>
+                                <button class="dropdown-item" type="button"> For work</button>
+                                <button class="dropdown-item" type="button"> Emotions</button>
+                            </div>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary">Add</button>
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <ul class="nav navbar-nav navbar-right">
+            <li><a class="withrippleGreen" href="#">Progress<div class="ripple-container">
+                <div class="ripple"></div>
+            </div> </a></li>
+            <li><a class="withrippleGreen" href="#">Grammar Help<div class="ripple-container">
+                <div class="ripple"></div>
+            </div> </a></li>
+            <li><a class="withrippleGreen" href="#">Language Info</a></li>
+        </ul>
+    </div>
+</nav>
+
+<section class="container-fluid second-box">
+    <div class=" container">
+
+        <div class="row justify-content-end finish" style="padding: 30px 15px 0 15px">
+            <a href="index.html">Finish</a>
+        </div>
+
+        <div class="question">
+            <h2>Choose the picture that discribes the word: <br><h1>Привіт</h1></h2>
+        </div>
+
+            <div class="row  justify-content-center">
+            <div class="col-10 col-sm-8 col-md-6 col-lg-4 col-xl-3 exsempl-bg3">
+                <div class="cardCourse3">
+                    <img class="bgInCard" src="img/hallo.png">
+                </div>
+            </div>
+
+            <div class="col-10 col-sm-8 col-md-6 col-lg-4 col-xl-3 exsempl-bg3">
+                <div class="cardCourse3">
+                    <img class="bgInCard" src="img/address.png">
+                </div>
+            </div>
+        </div>
+
+            <div class="row  justify-content-center">
+            <div class="col-10 col-sm-8 col-md-6 col-lg-4 col-xl-3 exsempl-bg3">
+                <div class="cardCourse3">
+                    <img class="bgInCard" src="img/confused.png">
+                </div>
+            </div>
+
+            <div class="col-10 col-sm-8 col-md-6 col-lg-4 col-xl-3 exsempl-bg3">
+                <div class="cardCourse3">
+                    <img class="bgInCard" src="img/room.png">
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center progressContainer">
+            <div class="col-10 col-sm-10 col-md-7 col-lg-7 col-xl-7 glProgress">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<hr class="hr1">
+<footer class="footerCourse">
+
+</footer>
+<script>
+    let clickBox = document.getElementsByClassName('cardCourse3')[0];
+    var cardBox = document.getElementsByClassName('card')[0];
+    var h3 = document.getElementsByClassName('h3')[0];
+
+
+
+
+    clickBox.onclick = function () {
+        clickBox.style.background = '#f3ecf6';
+        // h3.style.color = '#6a1090';
+        document.location.href = "course4.html";
+    };
+</script>
+</body>
+</html>

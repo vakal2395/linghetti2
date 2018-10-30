@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="google-signin-client_id" content="linghetti.apps.googleusercontent.com">
+    <!-- css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header-footer.css">
+    <title>Linghetti</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expend-lg">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                         viewBox="0 0 321.5 59" style="enable-background:new 0 0 321.5 59;" xml:space="preserve">
+                    <style type="text/css">
+                        .st0{fill:#ffffff;}
+                        .st1{font-family:'Trebuchet MS';}
+                        .st2{font-size:58.0422px;}
+                    </style>
+                    <g>
+                        <g>
+                            <ellipse class="st0" cx="15.1" cy="34.1" rx="15" ry="15.1"/>
+                            <ellipse class="st0" cx="42.3" cy="13.7" rx="13.2" ry="13.3"/>
+                            <ellipse class="st0" cx="72.9" cy="36.2" rx="13.2" ry="13.3"/>
+                            <path class="st0" d="M14.4,18.6"/>
+                            <path class="st0" d="M15.1,18.6c0,0,2.8-10.5,14.6-8.4s25.5,1,25.5,1s13.4-2.5,14.8,11.9C71.5,37.6,66.9,48,66.9,48
+                                s-7.3,5.6-12.8-2.1c0,0-7.7,9.8-15.3,0c0,0-7.5,9.7-14.9,0.3"/>
+                        </g>
+                        <text transform="matrix(0.9938 0 0 1 93.8291 47.1808)" class="st0 st1 st2 st3">Linghetti</text>
+                        </g>
+                    </svg>
+        </a>
+
+        <!--<a href="login.html" class="nav-links">Login</a>-->
+
+        <ul class="nav navbar-nav navbar-right">
+            <li><a class="withripple" href="javascript:void(0)">Display Language: English <div class="ripple-container">
+                <div class="ripple"></div>
+            </div> </a></li>
+            <li><a class="withripple" href="index.html">Lessons <div class="ripple-container">
+                <div class="ripple"></div>
+            </div> </a></li>
+            <li><a class="withripple" href="login.html">Sign in / Sign up</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- home intro -->
+<section class="welcome">
+    <div class="container">
+        <div class="col-sm-12">
+            <div class="row welcome-box">
+                <div class="error"></div>
+                <h1 class="welcome-box__text prompt">Who are you?</h1>
+                <div class="form-group form-event" style="width: 210px; margin: 0 auto;" onkeyup="logAempt(event)">
+                    <div style="text-align:center">
+                        <p class="incorrect" style="color:#ff5454; display:none">Your credentials were not recognized</p>
+                        <p class="link-sent" style="color:#41d332; display:none">A reset link has been sent to your email.</p>
+                        <input type="text" class="form-control" id="usr" style="margin-bottom:10px;" name="guruName" placeholder="User Name" autofocus="autofocus">
+                        <input type="password" class="form-control" id="pwd" style="margin-bottom:10px;" name="guruPwd" placeholder="User Password">
+                        <button type="submit" href="lessons.html" class="btn btn-success btn-lg btn-login" onclick="logAempt()">Login</button>
+                    </div>
+                </div>
+                <div style="margin-top:40px;">
+                    <a href="singUp.html" class="btn-sign-up" style="margin-right:10px">Sign Up</a>
+                    <a href="#" class="btn-lost-pwd" onclick="lostPwd(event)">Forgot Password</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!--/ home intro -->
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-xs-6 socialLinks">
+                <a class="navbar-brand" href="#">
+                    <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                         viewBox="0 0 321.5 59" style="enable-background:new 0 0 321.5 59;" xml:space="preserve">
+                    <style type="text/css">
+                        .st0{fill:#ffffff;}
+                        .st1{font-family:'Trebuchet MS';}
+                        .st2{font-size:58.0422px;}
+                    </style>
+                    <g>
+                        <g>
+                            <ellipse class="st0" cx="15.1" cy="34.1" rx="15" ry="15.1"/>
+                            <ellipse class="st0" cx="42.3" cy="13.7" rx="13.2" ry="13.3"/>
+                            <ellipse class="st0" cx="72.9" cy="36.2" rx="13.2" ry="13.3"/>
+                            <path class="st0" d="M14.4,18.6"/>
+                            <path class="st0" d="M15.1,18.6c0,0,2.8-10.5,14.6-8.4s25.5,1,25.5,1s13.4-2.5,14.8,11.9C71.5,37.6,66.9,48,66.9,48
+                                s-7.3,5.6-12.8-2.1c0,0-7.7,9.8-15.3,0c0,0-7.5,9.7-14.9,0.3"/>
+                        </g>
+                        <text transform="matrix(0.9938 0 0 1 93.8291 47.1808)" class="st0 st1 st2 st3">Linghetti</text>
+                        </g>
+                    </svg>
+                </a>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <ul class="social">
+                            <li><img src="img/icons/twitter.png" alt=""></li>
+                            <li><img src="img/icons/fb.png" alt=""></li>
+                            <li><img src="img/icons/vk.png" alt=""></li>
+                            <li><img src="img/icons/gp.png" alt=""></li>
+                            <li><img src="img/icons/yt.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <p>©Linghetti 2018. All rights reserved</p>
+            </div>
+            <div class="col-sm-2 col-xs-6">
+                <h5>About us</h5>
+                <p>Our Mission
+                <p>You Can Learn Anything</p>
+                <p>Our Team</p>
+                <p>Our Interns</p>
+                <p>Our Content Specialists</p>
+                <p>Our Board</p>
+            </div>
+            <div class="col-sm-2 col-xs-6 xs-clr-l">
+                <h5>Support</h5>
+                <p>Help center</p>
+                <p>Support Community</p>
+
+                <h5>Social</h5>
+                <p>Share Your Story</p>
+                <p>Press</p>
+            </div>
+            <div class="col-sm-2 col-xs-6">
+                <h5>Volunteer</h5>
+                <p>Full Time</p>
+                <p>Internships</p>
+            </div>
+            <div class="col-sm-2 col-xs-6">
+                <h5>Contribute</h5>
+                <p>Donate</p>
+                <p>Volunteer</p>
+                <p>Our Supporters</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- script -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+<script>
+    function logAempt(e = 0) {
+        if(e !== 0 && e.keyCode !== 13) return;
+        var usr = $("#usr").val();
+        var pwd = $("#pwd").val();
+        var url = $(".btn-login").attr("href");
+        $.post("sign_in.php", {usr:usr, pwd:pwd}, function(data){
+            var postBack = JSON.parse(data);
+            if(postBack.status === "success"){
+                sessionStorage.user = postBack.userName;
+                window.location.href = url;
+            } else {
+                $(".incorrect").text("Your credentials weren't recognized");
+                $(".incorrect").show();
+            };
+        });
+    };
+
+    function lostPwd(e = 0){
+        hidePrompts();
+        var hTime = 400;
+        e.preventDefault();
+        if($(".btn-lost-pwd").hasClass("go-to-log")) {
+            $(".btn-lost-pwd").text("Forgot Password");
+            $(".btn-login").text("Login");
+            $(".btn-login").attr("onclick", "logAempt()");
+            $("#usr").attr("placeholder", "User Name");
+            $(".prompt").text("Who Are You?");
+            $(".form-event").attr("onkeyup", "logAempt(event)");
+        } else {
+            $(".btn-lost-pwd").text("Sign In");
+            $(".btn-login").text("Send");
+            $(".btn-login").attr("onclick", "resetPwd()");
+            $("#usr").attr("placeholder", "Email");
+            $(".prompt").text("Enter Your Email");
+            $(".form-event").attr("onkeyup", "resetPwd(event)");
+        };
+        $("#pwd").toggle(hTime);
+        $(".fb-login-button").toggle(hTime);
+        $(".g-signin2").toggle(hTime);
+        $(".btn-lost-pwd").toggleClass("go-to-log");
+        $("#usr").val("");
+    };
+
+    function resetPwd(e = 0) {
+        if(e !== 0 && e.keyCode !== 13) return;
+        var email = $("#usr").val();
+        if(email){
+            $.post("forgot_pwd_request.php", {email:email}, function(data){
+                hidePrompts();
+                var data = JSON.parse(data);
+                if(data.status == "sent"){
+                    $(".link-sent").show();
+                };
+                if(data.status == "not found"){
+                    $(".incorrect").text("Your email address wasn't recognized");
+                    $(".incorrect").show();
+                };
+                //alert(data.status);
+            });
+        } else {
+            $(".incorrect").text("Enter email");
+            $(".incorrect").show();
+        };
+    };
+
+    function hidePrompts(a = ".incorrect", b = ".link-sent"){
+        if(a){
+            $(a).hide();
+        };
+        if(b){
+            $(b).hide();
+        };
+    };
+</script>
+</body>
+</html>
